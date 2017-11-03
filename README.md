@@ -1,6 +1,6 @@
 # Website-Checker
 This super simple code in Python checks if a keyword or string is found in a Webpage or Website.<br>
-NEED AT LEAST Python3
+This script needs AT LEAST Python3
 
 #### Coming Soon
 Telegram Notification and Bot avaiable for everyone
