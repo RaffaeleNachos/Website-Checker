@@ -20,15 +20,23 @@ while True:
 		msg = 'Check the Website, now!'
 		fromaddr = 'your_email_add'
 		toaddrs  = ['fist_email_add','second_email_add', 'n_email_add']
-		#uncomment the following lines and set with your email smtp settings
+		#uncomment the line that corresponds to your email domain
 
+		#Hotmail, Live, Outlook
+		#server = smtplib.SMTP('smtp.live.com', 25)
+
+		#Yahoo		
+		#server = smtplib.SMTP('smtp.mail.yahoo.it', 25)		
+		
+		#Gmail
 		#server = smtplib.SMTP('smtp.gmail.com', 587)
-		#server.starttls()
-		#server.login("YOUR_EMAIL_ADDRESS", "YOUR_PASSWORD")
+		
+		server.starttls()
+		server.login("YOUR_EMAIL_ADDRESS", "YOUR_PASSWORD")
 		print('From: ' + fromaddr)
 		print('To: ' + str(toaddrs))
 		print('Message: ' + msg)
-		#server.sendmail(fromaddr, toaddrs, msg)
-		#server.quit()
+		server.sendmail(fromaddr, toaddrs, msg)
+		server.quit()
 
 		break
