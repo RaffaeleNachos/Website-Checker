@@ -15,5 +15,5 @@ If you get errors try with: "sudo su" without quotes and then repeat 1 and 2 (US
 - You can use it to check if a product is back in stock. Simply by finding a keyword or phrase that is found only on the page of the product that is not avaiable. An example: "Out of stock". As soon as the site is updated and the phrase "Out of stock" is removed you will receive an email from the stmp server you have setted. <br>
 - You can also use this code to be notified when your website go offline, and be notified with an email.
 
-##bgcheck.py
+## bgcheck.py
 This is the file specified for the Banggood.com Website
