@@ -8,7 +8,7 @@ Telegram Notification and Bot avaiable for everyone
 ## Installation
 Always double check what you are writing on the terminal.
 1) apt-get install pip
-2) pip install requests && request
+2) pip install request
 If you get errors try with: "sudo su" without quotes and then repeat 1 and 2 (USE CAREFULLY YOU ARE GIVING ROOT PERMISSIONS)
 
 ### Use
